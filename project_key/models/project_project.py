@@ -40,7 +40,7 @@ class Project(models.Model):
 
         return new_project
 
-    def write(self, values):
+    def write(self, values): 
         update_key = False
 
         if "key" in values:
